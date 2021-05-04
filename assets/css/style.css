@@ -1,0 +1,100 @@
+    body {
+        margin-right: auto;
+        margin-left: auto;
+        /* max-width: 960px; */
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(224, 230, 235);
+    }
+    
+    p {
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    video {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(185, 51, 114);
+        font-size: 30px;
+    }
+    
+    h2 {
+        text-align: center;
+        color: rgb(44, 44, 116);
+    }
+    
+    #intro-img {
+        height: 500px;
+    }
+    
+    .alert {
+        border-style: dashed;
+        border-color: red;
+        padding: 3px 30px;
+    }
+    
+    .alert h2 {
+        text-align: center;
+        color: red;
+    }
+    
+    .alert p {
+        text-align: justify;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    section {
+        padding-top: 20px;
+        height: 200px;
+        align-items: center;
+    }
+    
+    section>img {
+        width: 50%;
+        height: 80%;
+    }
+    
+    .column {
+        float: left;
+        width: 45%;
+        padding-left: 10px;
+    }
+    /* style for colombia reality */
+    
+    #myVideo {
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    /* Add some content at the bottom of the video/page */
+    /* comment */
+    
+    #new-comment {
+        width: 100%;
+        height: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    #comment {
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(55, 145, 52);
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        border-radius: 10px;
+    }
