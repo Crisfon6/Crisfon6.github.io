@@ -10,9 +10,10 @@ comments.forEach(el => {
 })
 
 document.querySelector('#comment').onclick = () => {
-    comments.push(document.querySelector('#new-comment').value);
     let com = document.querySelector('#new-comment').value;
+    comments.push(com);
     var para = document.createElement("P");
     para.innerText = com;
     document.body.appendChild(para);
+    document.querySelector('#new-comment').value = '';
 }
